@@ -1,0 +1,344 @@
+{
+  "catalog_version": "2026.03.16",
+  "folder_id": "1EzOii3Y2lqJKknNjEFXT98DtgL_QYTfQ",
+  "folder_url": "https://drive.google.com/drive/folders/1EzOii3Y2lqJKknNjEFXT98DtgL_QYTfQ",
+  "notes": "All templates are Google Docs in the 'Regulatory Response Templates' shared drive folder. Template names ending in 'Template 2026' are the current active versions. Use the Google Doc ID to fetch template content via the Google Drive API export endpoint.",
+  "categories": {
+    "Account Access": {
+      "keywords": ["account access", "locked out", "cannot log in", "identity verification", "verify identity", "selfie", "ID verification", "confirm identity", "denied access"],
+      "templates": [
+        {
+          "name": "Account Access - Confirm/Denied - Template 2026",
+          "id": "1KE6Lo5MpxyIrLH3Smr4MEpE3oRgmkqKj6XszChCCwM0",
+          "use_when": "Customer's account access request was confirmed or denied after identity verification."
+        },
+        {
+          "name": "Account Access - Identity Verification - Template 2026",
+          "id": "1sckLoRSOr-MnmnnTpB7yPwpSMCy9PXMei0mQkN7fdz8",
+          "use_when": "Customer is being asked to complete identity verification to regain account access."
+        }
+      ]
+    },
+    "Account Closed / Denylisted": {
+      "keywords": ["account closed", "denylisted", "denylist", "suspended", "terminated", "banned", "reinstated", "SSN", "social security", "account lock", "locked account"],
+      "templates": [
+        {
+          "name": "Account Closed - Denylisted - Reinstated - Template 2026",
+          "id": "1aUSJwD0_t6CVIv2sVrZ-KU-gTlrYL6tZnApFasEb2QQ",
+          "use_when": "Customer's account was denylisted but has since been reinstated."
+        },
+        {
+          "name": "Account Closed - Denylisted - SSN - Template 2026",
+          "id": "1kBSbxGvxhNvt0Qvtb8QePpwyMjd0JhcSJZ0cfHiGn-8",
+          "use_when": "Account closure related to SSN issues (mismatch, fraud, duplicate SSN)."
+        },
+        {
+          "name": "Account Closed - Denylisted - Template 2026",
+          "id": "1Ml9wJQghmiJkD2Tj3JAswYpHWhJIwF1h_3q3Yruuy8U",
+          "use_when": "General account closure / denylisting due to Terms of Service violation."
+        },
+        {
+          "name": "Account Lock - Template 2026",
+          "id": "1KtbCfZ45kfkl5LFuDAZ-q7vhOzdLT6rTNXgJQhvLsP4",
+          "use_when": "Customer's account is temporarily locked (not permanently closed)."
+        }
+      ]
+    },
+    "ATO (Account Takeover)": {
+      "keywords": ["ATO", "account takeover", "hacked", "unauthorized access", "someone accessed", "compromised", "stolen phone", "SIM swap", "reimbursement", "unauthorized transactions"],
+      "templates": [
+        {
+          "name": "ATO - Confirmed - Reimbursement - Template 2026",
+          "id": "1gYV7PHx7Y-FVeX1fmDdbUSaNiSJ5EZ4zmQcrUpA_0CI",
+          "use_when": "ATO confirmed and customer received reimbursement for unauthorized transactions."
+        },
+        {
+          "name": "ATO - Confirmed/Denied - No Reimbursement - Template 2026",
+          "id": "1OAPEYa7d1EaH56OHiuG7rkk5UYnTbVhnLIoQnCyJ2Nw",
+          "use_when": "ATO claim was confirmed or denied but no reimbursement was issued."
+        },
+        {
+          "name": "ATO - Investigation Ongoing / NMI - Template 2026",
+          "id": "1xFE4x2GqwD8_4YwZcDMB1mm5WQJnu7RIYtVOmHt4P_8",
+          "use_when": "ATO investigation is still ongoing or Cash App needs more information (NMI) from the customer."
+        }
+      ]
+    },
+    "Bitcoin": {
+      "keywords": ["bitcoin", "BTC", "crypto", "cryptocurrency", "bitcoin dispute", "bitcoin missing", "bitcoin transaction"],
+      "templates": [
+        {
+          "name": "Bitcoin - Dispute - Claim Denied - Template 2026",
+          "id": "10dAgULlw7EKCzSZWQ1SoiTXdOQXMOpPAqHIZ7Tn2WsE",
+          "use_when": "Customer filed a dispute related to a Bitcoin transaction and the claim was denied."
+        },
+        {
+          "name": "Bitcoin - Missing Money - Template 2026",
+          "id": "1gA3I0w8_83Aw-SkYQYFqMND1LKKKX1u0IAn2cjn2la8",
+          "use_when": "Customer reports missing Bitcoin funds (not a dispute, but funds not appearing)."
+        }
+      ]
+    },
+    "Cash App Card": {
+      "keywords": ["cash card", "cash app card", "debit card", "card dispute", "card transaction", "ATM", "merchant", "double charge", "double capture", "void", "card suspended", "card terminated", "card claim"],
+      "templates": [
+        {
+          "name": "Cash App Card - Dispute - Claim Resolved - Template 2026",
+          "id": "1Fcb3S8Mds-YZRJWk6chtZvzOicwcOAOL54kWnbWlqqk",
+          "use_when": "Cash App Card dispute was filed and the claim has been resolved (credit issued or merchant refund received)."
+        },
+        {
+          "name": "Cash App Card - Dispute - Denied - Template 2026",
+          "id": "1Nkq0Yq3lYwuVSyudkMc-vw6uuMs9Zjks5mhOBwaFlW4",
+          "use_when": "Cash App Card dispute was filed and the claim was denied."
+        },
+        {
+          "name": "Cash App Card - Dispute - Ongoing - Template 2026",
+          "id": "1AYKzZvvuUVKk_Ux-UOQ72J1dcVPyyaXQ4mVPOkL9h5w",
+          "use_when": "Cash App Card dispute is still being investigated (provisional credit may or may not have been issued)."
+        },
+        {
+          "name": "Cash App Card - Double Capture - Template 2026",
+          "id": "1EfvFoaxhTiTSBq8NcDipZsKXFXyKaSqoQZRzR9sGCUs",
+          "use_when": "Customer was charged twice for the same merchant transaction (double capture)."
+        },
+        {
+          "name": "Cash App Card - Double Void - Template 2026",
+          "id": "1kipmnjq_hrG-LRRpxwl0jy4TSUWGoTfR9J-WK4yz4Cc",
+          "use_when": "Customer experienced a double void on a Cash App Card transaction."
+        },
+        {
+          "name": "Cash App Card - Suspension/Termination - Template 2026",
+          "id": "1XLRhr-tcTp0adUfhXx7v5cPQN4-uLn6HB3Vx6aS9Rf0",
+          "use_when": "Customer's Cash App Card was suspended or terminated."
+        }
+      ]
+    },
+    "Cash Out / Add Cash": {
+      "keywords": ["cash out", "withdraw", "add cash", "deposit", "bank transfer", "chargeback", "missing funds", "transfer failed", "pending transfer"],
+      "templates": [
+        {
+          "name": "Add Cash - Chargeback - Template 2026",
+          "id": "1HV8U5t_XY0A5LcNW5Q7QY3mIufTHr7eOotaR6SOHUeI",
+          "use_when": "Customer's bank initiated a chargeback on an Add Cash transaction."
+        },
+        {
+          "name": "Cash Out - Missing Funds - Template 2026",
+          "id": "1yYheGkWar43zu4OOUz9Gz8oS6inj8ql3S6q302RkHAQ",
+          "use_when": "Customer reports missing funds from a Cash Out (transfer to bank) that did not arrive."
+        }
+      ]
+    },
+    "Direct Deposit": {
+      "keywords": ["direct deposit", "paycheck", "payroll", "employer deposit", "missing deposit", "DD"],
+      "templates": [
+        {
+          "name": "Direct Deposit - Missing Funds - Template 2026",
+          "id": "1SBhpsKBz6BPNpT3-P7prTJ89o--BFzjBP9i7z0vKAvk",
+          "use_when": "Customer reports a missing direct deposit (payroll, government payment, etc.)."
+        }
+      ]
+    },
+    "Duplicate Complaint": {
+      "keywords": ["duplicate", "same complaint", "already responded", "prior complaint", "repeat complaint"],
+      "templates": [
+        {
+          "name": "Duplicate Complaint - Reg- Template 2026",
+          "id": "14qm99-TfPeQS1rahb7CMyqo8jeZHehVAr22go-BpQ3c",
+          "use_when": "Customer filed a duplicate regulatory complaint that was already addressed in a prior response."
+        }
+      ]
+    },
+    "Frozen Balance": {
+      "keywords": ["frozen", "frozen balance", "funds held", "civil process", "sanctions", "OFAC", "garnishment", "levy", "court order"],
+      "templates": [
+        {
+          "name": "Frozen Balance - Civil Process - Template 2026",
+          "id": "1b09bauhhw8mXo2YgHvZcnYgG8aP1LIE64YF9f4wtAH8",
+          "use_when": "Customer's balance was frozen due to a civil process (garnishment, levy, court order)."
+        },
+        {
+          "name": "Frozen Balance - Sanctions - Template 2026",
+          "id": "1AUKZA3KDIvL3SyP-iM9JWUyDtdCXo-Y6pNt17aCIuAg",
+          "use_when": "Customer's balance was frozen due to sanctions screening (OFAC or similar)."
+        }
+      ]
+    },
+    "ID Theft": {
+      "keywords": ["identity theft", "ID theft", "someone opened account", "fraudulent account", "not my account", "1099K", "tax form", "IRS"],
+      "templates": [
+        {
+          "name": "1099K Form/ID Theft Response - Template 2026",
+          "id": "1s6FPmC0MgqUgb3LJ2neMShyMvRkuiYcyoQHI_Nk-xC8",
+          "use_when": "Customer received a 1099-K tax form for an account opened via identity theft."
+        },
+        {
+          "name": "ID Theft - Account Found - Template 2026",
+          "id": "18vlZx_g75DQRPGaelOE6m3vGkGvz4Ok2hR9X1xZykDI",
+          "use_when": "ID theft reported and a fraudulent Cash App account was found using the customer's identity."
+        },
+        {
+          "name": "ID Theft - Account Info Provided - Template 2026",
+          "id": "1G0pMYPFUiQu4J6l9Zw24kN03yppoqB8m-h3A2SzWYvI",
+          "use_when": "ID theft reported and Cash App has provided the requested account information to the customer."
+        },
+        {
+          "name": "ID Theft - Account Info Requested - Template 2026",
+          "id": "1DAwiYxnqP_r9AtU5PWjS99ROXXr_TyvIwNNjgtylf_g",
+          "use_when": "ID theft reported and Cash App is requesting additional information from the customer to proceed."
+        },
+        {
+          "name": "ID Theft - NMI - Template 2026",
+          "id": "14CTZGi8jBuML0UFMlGrZFZOhPxGAUTWm6yc6s3btrk8",
+          "use_when": "ID theft reported but Cash App needs more information (NMI) to investigate."
+        }
+      ]
+    },
+    "P2P (Peer-to-Peer)": {
+      "keywords": ["P2P", "peer to peer", "sent money", "received money", "payment", "refund", "scam", "cancel payment", "wrong person", "misdirected", "chargeback", "goods and services", "auto block"],
+      "templates": [
+        {
+          "name": "P2P - Auto Block - Template 2026",
+          "id": "1mPAaQdVEWxTOLjXdDzFflnFj6-QvtRvJGkBCeOy28Uc",
+          "use_when": "A P2P payment was automatically blocked by Cash App's fraud prevention system."
+        },
+        {
+          "name": "P2P - Cancel Authorized Payment - Template 2026",
+          "id": "13-sRMd6Ke4VOVpNI0SO-7d627mVdL3fzu_RHxUC_bmM",
+          "use_when": "Customer wants to cancel or reverse an authorized P2P payment they willingly sent."
+        },
+        {
+          "name": "P2P - Chargeback - Recipient - Template 2026",
+          "id": "1zUt8xie7l1kLBDQoKgDO7SS8yuCUyY5czdNPNAsH-V8",
+          "use_when": "Customer is the RECIPIENT of a P2P payment that was charged back by the sender's bank."
+        },
+        {
+          "name": "P2P - Chargeback - Sender - Template 2026",
+          "id": "1KR8IrMDWhat2cbDn72XeDq3pfyoOqscbks5yM9_sqak",
+          "use_when": "Customer is the SENDER who initiated a chargeback on a P2P payment through their bank."
+        },
+        {
+          "name": "P2P - Goods or Services Dispute - Template 2026",
+          "id": "1uJZNRhlWQqCVRRWEEQ6LwUzzXUHtBuEBdQ6cqPx2Vd4",
+          "use_when": "Customer paid for goods or services via P2P and did not receive them or received something different."
+        },
+        {
+          "name": "P2P - Misdirected Payment - Old Alias - Template 2026",
+          "id": "1IYOSH09Sn0fe1D7tTuFP19lRx1S6EwSaU_h7Z3fRWIY",
+          "use_when": "Customer sent a P2P payment to a phone number or email that was previously linked to a different Cash App account (old alias)."
+        },
+        {
+          "name": "P2P - Misdirected Payment - User Error - Template 2026",
+          "id": "1yt__Ixoe8s3XnITfxgn_TGWhBuGPRko4WVkl14nLivA",
+          "use_when": "Customer sent a P2P payment to the wrong person due to their own error (typo, wrong $cashtag)."
+        },
+        {
+          "name": "P2P - Missing Money / Paid Out Sender - Template 2026",
+          "id": "1Eu0Oe_RHbFacT_52_Ari0U81J9yNSgEUBWqz6LU8NQ4",
+          "use_when": "Customer reports missing money from a P2P transaction or funds were paid out to the sender."
+        },
+        {
+          "name": "P2P - Unauthorized Transaction - Claim Denied - Template 2026",
+          "id": "1h-RYW8xOWWCPcqBdwjEeKED5vqXiCdI_yMaTvPHQQEU",
+          "use_when": "Customer claimed a P2P transaction was unauthorized but the claim was denied."
+        }
+      ]
+    },
+    "Streamlined Response (SR)": {
+      "keywords": ["streamlined", "SR", "CFPB streamlined", "PII mismatch", "IDV mismatch", "OSS", "out of scope"],
+      "templates": [
+        {
+          "name": "SR Duplicate CFPB Complaint Template 2026",
+          "id": "1m23cyUBmQ3o3PSUFC1wKzvrquTtdqfAAPxkYFkDmfp0",
+          "use_when": "CFPB streamlined response for a duplicate complaint."
+        },
+        {
+          "name": "SR IDV / PII Mismatch Template 2026",
+          "id": "1dco9MLi2eGApuiQYU9PXuoHwGg0JIIJiw8gXe_8wqPo",
+          "use_when": "CFPB streamlined response when PII does not match (identity verification failed)."
+        },
+        {
+          "name": "SR NMI / Contact Support Template 2026",
+          "id": "1_KDKuqG4CsRjKVIJK38hUDe7EDm3m57H2Fu4BDku-Hk",
+          "use_when": "CFPB streamlined response directing customer to contact Cash App Support for more information."
+        },
+        {
+          "name": "SR OSS Template 2026",
+          "id": "13r87OtAaCixDr8WLObdrAlh9ZP6n8NjoEtlHXb9IBvI",
+          "use_when": "CFPB streamlined response for out-of-scope service complaints."
+        }
+      ]
+    },
+    "State-Specific / International": {
+      "keywords": ["MA DOB", "Massachusetts", "state agency", "UK", "United Kingdom", "privacy notice", "state regulator"],
+      "templates": [
+        {
+          "name": "MA DOB template 2026",
+          "id": "1CbJn7J5yNQPAJdFR5k92dlB3vL1mKkvdWlA_V4qmh1o",
+          "use_when": "Complaint filed through the Massachusetts Division of Banks (MA DOB). Uses MA DOB-specific format."
+        },
+        {
+          "name": "State Agency - NMI / Privacy Notice Response - Template 2026",
+          "id": "1Y3tD0uoS81uYHH-IjbOdvZL20cYWRIZqr2UNAGHtdc0",
+          "use_when": "Complaint filed through a state agency where Cash App needs more information or is providing a privacy notice response."
+        },
+        {
+          "name": "UK Based Complaint - Template 2026",
+          "id": "1xBtR0e9RWzlKFoYOAm_MPb7WFJ13hZktJVRCSLzansk",
+          "use_when": "Complaint from a UK-based customer. Uses UK-specific format and regulatory references."
+        }
+      ]
+    },
+    "Other / Specialty": {
+      "keywords": ["blank", "settlement", "deceased", "mobile check", "paper money", "NMI", "contact support", "cash for business", "business account"],
+      "templates": [
+        {
+          "name": "Blank - Template 2026",
+          "id": "1uSyBhpJHVlwFVAMCBGZjv1Ku77xu84iVuz7Ria6uO_I",
+          "use_when": "No specific template matches. Use the blank template as a starting point for unusual complaint types."
+        },
+        {
+          "name": "CFPB Settlement Response Draft - Template 2026",
+          "id": "11bLF8L--Aj1gzqmh7FZSkMnWMYFKr-ftP8YITArQing",
+          "use_when": "Drafting a settlement response for a CFPB complaint (involves monetary settlement offer)."
+        },
+        {
+          "name": "Cash for Business - Template 2026",
+          "id": "16N-UXFYZTffmcTOQOVlduamRpBrDgTlVwwCxu_rCgq0",
+          "use_when": "Complaint related to a Cash App for Business account."
+        },
+        {
+          "name": "Deceased Customer - Docs Requested - Template 2026",
+          "id": "1kkJ0zHX-vrvfB-6JrQ7PnQ2t6Omhlc4DbdAaM6OU-A4",
+          "use_when": "Complaint filed on behalf of a deceased customer; documents are being requested from the estate."
+        },
+        {
+          "name": "Mobile Check or Paper Money Deposit - Dispute / Missing - Template 2026",
+          "id": "176iYHy2if0GfXUPfo2eq8FcjeJ3-dpCyT9RApw1uAXE",
+          "use_when": "Customer reports a missing or disputed mobile check deposit or paper money deposit."
+        },
+        {
+          "name": "NMI / Contact Support - Template 2026",
+          "id": "1_v9cIO53tV0EgLi6oPnU4gaS3VsIj_ObjuivhD01bXs",
+          "use_when": "General NMI (Need More Information) response directing customer to contact Cash App Support."
+        },
+        {
+          "name": "Privacy Notice - Unable to Verify 2026",
+          "id": "1ABibcF60GCVLVmIAb4-DhrKDdfULxPhDliMF4oNy_Aw",
+          "use_when": "Privacy notice response when Cash App was unable to verify the customer's identity."
+        }
+      ]
+    }
+  },
+  "template_selection_rules": [
+    "1. If the investigation notes TL;DR explicitly names a template, use that template.",
+    "2. If the JIRA issue type is 'Regulatory' and the complaint is a duplicate, use 'Duplicate Complaint' or 'SR Duplicate CFPB Complaint' template.",
+    "3. If PII is NOT VERIFIED, use the 'SR IDV / PII Mismatch' template.",
+    "4. If the complaint is from MA DOB, use the 'MA DOB template 2026'.",
+    "5. If the complaint is from a UK customer, use the 'UK Based Complaint' template.",
+    "6. Match the complaint topic (ATO, P2P, Card dispute, etc.) to the appropriate category.",
+    "7. Within a category, match the specific outcome (claim denied, reimbursement issued, ongoing, etc.).",
+    "8. If no specific template matches, use the 'Blank - Template 2026'.",
+    "9. When in doubt between two templates, present both options to the handler and ask them to choose."
+  ]
+}
